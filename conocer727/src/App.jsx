@@ -111,9 +111,9 @@ function App() {
               <table>
                 <thead>
                   <tr>
-                    <th>🎯 Misión</th>
+                    <th> Misión</th>
                     <th></th>
-                    <th>🧭 Visión</th>
+                    <th> Visión</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -128,9 +128,9 @@ function App() {
                   </tr>
                   <tr>
                     {/* Nota: Las rutas de imagen con 'src/assets' son comunes en proyectos Vite/modernos. Asegúrate de que sigan funcionando. */}
-                    <td><img src="src/assets/mision.jpg" alt="Misión" style={{ width: '100%', maxWidth: '200px', height: 'auto' }} /></td>
+                    <td><img src="./assets/mision.jpg" alt="Misión" style={{ width: '100%', maxWidth: '200px', height: 'auto' }} /></td>
                     <td></td>
-                    <td><img src="src/assets/vision.jpg" alt="Visión" style={{ width: '100%', maxWidth: '200px', height: 'auto' }} /></td>
+                    <td><img src="./assets/vision.jpg" alt="Visión" style={{ width: '100%', maxWidth: '200px', height: 'auto' }} /></td>
                   </tr>
                 </tbody>
               </table>
@@ -206,7 +206,7 @@ function App() {
                     controls
                     style={{ width: '100%', maxWidth: '600px', height: 'auto' }}
                   >
-                    <source src="/assets/multimedia/soporte.mp4" type="video/mp4" />
+                    <source src="./assets/multimedia/soporte.mp4" type="video/mp4" />
                     Tu navegador no soporta la etiqueta de video.
                   </video>
                 </div>
@@ -220,22 +220,22 @@ function App() {
 
                 <div id="galeria-row" className="row">
                   <div className="gallery-item">
-                    <img src="src/assets/tec.jpg" alt="Proyecto 1" />
+                    <img src="./assets/tec.jpg" alt="Proyecto 1" />
                     <p>Construcción de red LAN para oficina.</p>
                   </div>
 
                   <div className="gallery-item">
-                    <img src="src/assets/diseña.jpg" alt="Proyecto 2" />
+                    <img src="./assets/diseña.jpg" alt="Proyecto 2" />
                     <p>Desarrollo y diseño de página Web empresarial</p>
                   </div>
 
                   <div className="gallery-item">
-                    <img src="src/assets/seg1.jpg" alt="Proyecto 3" />
+                    <img src="./assets/seg1.jpg" alt="Proyecto 3" />
                     <p>Prevención de ataques cibernéticos.</p>
                   </div>
 
                   <div className="gallery-item">
-                    <img src="src/assets/sopo.jpg" alt="Proyecto 4" />
+                    <img src="./assets/sopo.jpg" alt="Proyecto 4" />
                     <p>Mantenimiento preventivo y correctivo de equipos de cómputo.</p>
                   </div>
                 </div>
@@ -248,19 +248,19 @@ function App() {
                 <h2 className="text-center mb-4"> Nuestros Clientes</h2>
                 <div id="clientes-row" className="row">
                   <div className="client-logo">
-                    <img src="src/assets/hl.jpg" alt="Cliente 1" />
+                    <img src="./assets/hl.jpg" alt="Cliente 1" />
                     <p>HL Contadores.</p>
                   </div>
                   <div className="client-logo">
-                    <img src="src/assets/conso.jpg" alt="Cliente 2" />
+                    <img src="./assets/conso.jpg" alt="Cliente 2" />
                     <p>Consolid cargo.</p>
                   </div>
                   <div className="client-logo">
-                    <img src="src/assets/mabibi.jpg" alt="Cliente 3" />
+                    <img src="./assets/mabibi.jpg" alt="Cliente 3" />
                     <p>Mabibi products.</p>
                   </div>
                   <div className="client-logo">
-                    <img src="src/assets/bom.jpg" alt="Cliente 4" />
+                    <img src="./assets/bom.jpg" alt="Cliente 4" />
                     <p>Centro de capacitación.</p>
                   </div>
                 </div>
@@ -347,10 +347,10 @@ function App() {
           <div className="social-icons">
             {/* Asegúrate de que las rutas de las imágenes de redes sociales sean correctas */}
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/facebook.png" alt="Facebook" />
+              <img src="./assets/facebook.png" alt="Facebook" />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/instagram.png" alt="Instagram" />
+              <img src="./assets/instagram.png" alt="Instagram" />
             </a>
           </div>
         </div>
