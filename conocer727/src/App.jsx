@@ -40,13 +40,12 @@ function App() {
             <li><a href="#casos">Casos de Éxito</a></li>
             {/* El enlace de Contacto ahora usa el handler si el formulario no se está mostrando */}
             <li>
-              <a 
-                href="#contacto" 
-                onClick={!mostrarFormulario ? handleMostrarFormulario : undefined}
-                style={{ cursor: 'pointer' }}
-              >
-                Contacto
-              </a>
+            
+
+
+
+
+            
             </li>
           </ul>
         </nav>
