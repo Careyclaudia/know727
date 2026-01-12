@@ -61,7 +61,7 @@ MIDDLEWARE = [
 
 # Configuración CORS (Se mantiene igual)
 CORS_ALLOWED_ORIGINS = [
-    #"https://[TU-DOMINIO-NETLIFY-FINAL].netlify.app", 
+    "https://venerable-baklava-fb769b.netlify.app/", 
     "http://localhost:5173",
      "http://127.0.0.1:5173", # Puerto de desarrollo de Vite
 ]

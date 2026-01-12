@@ -40,12 +40,15 @@ function App() {
             <li><a href="#casos">Casos de Éxito</a></li>
             {/* El enlace de Contacto ahora usa el handler si el formulario no se está mostrando */}
             <li>
-            
+              
+          
+
+
+          
 
 
 
 
-            
             </li>
           </ul>
         </nav>
@@ -199,7 +202,7 @@ function App() {
                     boxSizing: 'border-box'
                   }}
                 >
-                  <h3>🔌 SOLITECH-CAREY potencializa tu negocio</h3>
+                  <h3>   SOLITECH-CAREY potencializa tu negocio</h3>
                   {/* Asegúrate de que la ruta del video sea correcta en tu proyecto */}
                   <video
                     controls
