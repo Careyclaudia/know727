@@ -27,17 +27,16 @@ export default function Formulario() {
     setMensaje('Enviando...');
 
     try {
-      // 🚨 Petición POST a la API de Django 🚨
-      // La ruta final de tu CRUD es /api/mensajes/
+      
       const response = await axios.post(`${URL_API}/api/mensajes/`, datos); 
       
       console.log('Respuesta del servidor:', response.data);
-      setMensaje('✅ ¡Mensaje enviado con éxito! Guardado en la base de datos.');
+      setMensaje('¡Mensaje enviado con éxito! ');
       setDatos({ nombre: '', email: '', opcion: 'opcion1' }); // Limpiar formulario
 
     } catch (error) {
       console.error('Error al enviar el formulario:', error);
-      setMensaje('❌ Error al enviar. Verifica tu conexión con el backend.');
+      setMensaje(' Error al enviar. Verifica tu conexión con el backend.');
     }
   };
 
