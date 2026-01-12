@@ -157,7 +157,7 @@ function App() {
                   {/* Servicio 2 */}
                   <div className="col-lg-3 col-md-6 text-center">
                     <div className="service-box mt-5">
-                      <img src="src/assets/icons/infraweb.png" alt="Infraestructura" style={{ width: '80px', maxWidth: '100%', height: 'auto' }} />
+                      <img src="/assets/icons/infraweb.png" alt="Infraestructura" style={{ width: '80px', maxWidth: '100%', height: 'auto' }} />
                       <h3 className="h4 mb-2">Infraestructura web</h3>
                       <p className="text-muted mb-0">
                         Migración y gestión de sistemas en la nube para mayor escalabilidad.
@@ -206,7 +206,7 @@ function App() {
                     controls
                     style={{ width: '100%', maxWidth: '600px', height: 'auto' }}
                   >
-                    <source src="/assets/multimedia/soporte.mp4" type="video/mp4" />
+                    <source src="/assets/soporte.mp4" type="video/mp4" />
                     Tu navegador no soporta la etiqueta de video.
                   </video>
                 </div>
